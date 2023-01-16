@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+ }
+
+ body{
+    height: 10%;
+    position: fixed;
+    background-color: rgba(236, 233, 233, 0.5);
+
+ }
+ a{
+     text-decoration: none;
+ }
+ li{
+     list-style: none;
+ }
+ h1,
+ h2{
+     color: rgb(247, 250, 252);
+ }
+
+ .side-menu{
+     position: fixed;
+     background: #5894d8;
+    left: 0;
+    top: 77px;
+
+     height: 100%;
+    display: flex;
+     flex-direction: column;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ .side-menu .brand-name{
+     height: 10vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position:absolute;
+
+ }
+ .side-menu li{
+
+     padding: 22px 40px;
+     color: #ffffff;
+     display: flex;
+     align-items: left;
+     align-items: left;
+ }
+ .side-menu li:hover{
+    background: #ffffff;
+    color:black;
+    width: 99%;
+    left: 20px;
+    border-radius: 4px;
+ }
+ .container {
+    position:fixed;
+    left: 270px;
+    top: 0px;
+    width: 84.5%;
+    margin-top: 10vh;
+    min-height: 10vh;
+    height: 85%;
+    background-color: #ffffff;
+ }.container45 {
+    position: relative;
+    left: 260px;
+    top: 127px;
+
+    background-color: #ffffff;
+ }
+
+ .container47 {
+    position: relative;
+    left: 1250px;
+    top: -45px;
+height: 400px;
+
+    background-color: #ffffff;
+ }
+ .container48 {
+    position: relative;
+    left:680px;
+    top: -440px;
+    height: 400px;
+    width: 300px;
+    background-color: #ffffff;
+ }
+ .btn45{
+    background:#5894d8 ;
+    color: #ffffff;
+    padding: 1.8%;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+    align-content: right;
+    top: 530px;
+    width: 90%;
+    height: 6%;
+
+    float: right;
+}
+.btn45:hover {
+    color: black;
+    background: #f1f1f1;
+
+    border: 100%;
+}
+ .container .customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:143%;
+    position: relative;
+    top: 30px;
+    background-color: #f2f2f2;
+    left: 10px;
+    }
+
+    .container .customers td, .customers th {
+
+    padding: 12px;
+    text-align: center;
+    }
+    .container .customers tr{
+        border-bottom: 2px solid #ddd;}
+
+    .container .customers tr:nth-child(even){ background-color: #D6EEEE;}
+
+    .container .customers tr:hover {background-color: #D6EEEE;}
+
+    .container .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: grey;
+    background:#fff;
+    }
+.header{
+    position: fixed;
+    top: 0;
+    color: #ffffff;
+    right: 0;
+   display: flex;
+    width: 100%;
+    height: 8vh;
+    background:#5894d8;
+    align-items:center;
+    justify-content: left;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.header .nav{
+     width: 80%;
+     display: flex;
+     align-items: center;
+ }
+
+ .container .content{
+    width: 80%;
+    height: 100%;
+    float: fixed;
+
+}
+ .container .content .cards{
+     padding: 8px;
+
+     display: flex;
+     align-items: center;
+
+     justify-content: space-between;
+     flex-wrap: wrap;
+
+ }
+ .container .content .cards .card{
+     width: 150px;
+     height: 150px;
+     background-color: #f1f1f1;
+     margin: 20px 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+ }
+ .btn{
+    background:#5894d8 ;
+    color: #ffffff;
+    padding: 0.6%;
+    position: absolute;
+    right: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+    align-content: right;
+    float: right;
+}
+ .btn:hover {
+    color: black;
+    background: #f1f1f1;
+
+    border: 100%;
+}
+
+.page-footer {
+    position: relative;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    background-color: #2D3B38;
+    color: #fff;
+  }
+
+  .page-footer h5 {
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .page-footer hr {
+    border-color: #4F5E5B;
+  }
